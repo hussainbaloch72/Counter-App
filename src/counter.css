@@ -1,0 +1,38 @@
+.counter-container {
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 600px;
+  }
+  
+  .counter-title {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
+  .counter-value {
+    font-size: 3rem;
+    color: #007bff;
+    margin: 20px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .counter-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
